@@ -1,6 +1,40 @@
 version: "2.0"
 
 nlu:
+- intent: play_game
+  examples: |
+    - play
+    - let's play
+    - I want to play
+    - I wanna play
+    - start the game
+    - game
+    - let's game
+    - start play
+
+- intent: quit
+  examples: |
+    - quit
+    - exit
+    - shut down
+    - shutdown
+    - exit game
+    - exit app
+    - shut down program
+    - terminate
+
+- intent: how_to_play
+  examples: |
+    - how
+    - how to play
+    - how do you play
+    - rules
+    - what are the rules
+    - game rules
+    - can you tell me the rules
+    - explain the rules
+
+
 - intent: greet
   examples: |
     - hey
