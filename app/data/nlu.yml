@@ -52,6 +52,15 @@ nlu:
     - alternatives
     - what are my alternatives
 
+- intent: continue
+  examples: |
+    - continue
+    - let's continue
+    - I want to continue
+    - go back
+    - go back to game
+    - return
+
 - intent: affirm
   examples: |
     - yes
