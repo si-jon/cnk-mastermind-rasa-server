@@ -61,6 +61,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - sure
+    - I'm sure
 
 - intent: deny
   examples: |
@@ -72,3 +74,4 @@ nlu:
     - don't like that
     - no way
     - not really
+    - no I'm not
